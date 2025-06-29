@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #f5f5f5;
+}
+
+header{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: left;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:focus,
+nav a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+}
+
+#brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+#links {
+    display: flex;
+    gap: 30px;
+    list-style: none;/*Remove bullet points*/
+    margin: 0;/*Remove margin and padding to gain complete CSS control from the browser*/
+    padding: 0;
+}
