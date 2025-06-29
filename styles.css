@@ -211,4 +211,46 @@ nav {
 .skill-badges li:hover {
     background-color: #c8e6c9;
 }
+
+.skill-badges li {
+    position: relative;
+    cursor: help;
+}
+  
+.skill-badges li::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(255, 255, 255, 0.95);
+    color: #333;
+    padding: 6px 12px;
+    border-radius: 8px;
+    white-space: nowrap;
+    font-size: 0.8rem;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    z-index: 100;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    border: 1px solid #ccc;
+}
+  
+.skill-badges li:hover::after {
+    opacity: 1;
+}
+  
+.skill-badges li a {
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+  
+.skill-badges li a:hover {
+    text-decoration: underline;
+}
+  
   
