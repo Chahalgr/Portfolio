@@ -102,11 +102,6 @@ nav {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-#projects article:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-}
-
 #projects img {
     width: 100%;
     max-height: 180px;
@@ -140,6 +135,19 @@ nav {
     grid-template-columns: 1fr;
     gap: 30px;
 }
+
+.project-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition: transform 0.3s ease;
+}
+  
+.project-link:hover article {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+  
 
 @media (min-width: 768px) {
     .project-grid {
