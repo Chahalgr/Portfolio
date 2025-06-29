@@ -160,3 +160,55 @@ nav {
         grid-template-columns: 1fr 1fr 1fr; 
     }
 }
+
+#skills {
+    background-color: #ffffff;
+    padding: 60px 20px;
+    max-width: 800px;
+    margin: 10px auto;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+
+#skills h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #333333;
+}
+  
+.skill-category {
+    margin-bottom: 40px;
+}
+  
+.skill-category h3 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    color: #4CAF50;
+}
+  
+.skill-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.skill-badges li {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+    border: 1px solid #c8e6c9;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+  
+.skill-badges li:hover {
+    background-color: #c8e6c9;
+}
+  
