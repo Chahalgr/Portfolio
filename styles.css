@@ -56,6 +56,27 @@ nav {
     padding: 0;
 }
 
+@media (max-width: 768px) {
+    nav {
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+  
+    #links {
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+  
+    nav a {
+      font-size: 0.85rem;
+    }
+  
+    #brand {
+      font-size: 1rem;
+    }
+}
+    
+
 #about {
     background-color: #ffffff;
     background: linear-gradient(to bottom, #ffffff, #f9f9f9);
