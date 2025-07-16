@@ -298,7 +298,21 @@ nav {
 .fa-github { color: #000000; }
 .fa-code-branch { color: #007acc; }
 .fa-code { color: #9b4f96; }
-  
+.fa-fire { color: #512BD4; }         
+.fa-server { color: #0078D7; }   
+.fa-infinity { color: #512BD4; }
+.fa-bolt { color: #ffcc00; }
+.fa-database { color: #f48c06; }     
+.fa-superscript { color: #6c757d; }  
+.fa-brain { color: #f06292; }        
+.fa-chart-bar { color: #4caf50; }    
+.fa-chart-pie { color: #f9a825; }    
+.fa-server { color: #5c6bc0; }       
+.fa-chart-line { color: #ff4b4b; }    
+.fa-microsoft { color: #0078D4; }    
+.fa-globe { color: #0078d4; }
+.fa-chart-line { color: #ff4b4b; }
+
 #contact {
     background-color: #ffffff;
     padding: 60px 30px;
