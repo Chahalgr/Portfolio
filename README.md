@@ -2,7 +2,7 @@
 
 This is my personal portfolio website showcasing the projects, skills, and experiences I’ve accumulated as a software developer, data analyst, and student. The website highlights web development projects, machine learning projects, dashboards, and contributions to investment organization.
 
-🌐 **Live Website:** [View It Here!](chahalgr.github.io/Portfolio)
+🌐 **Live Website:** [View It Here!](https://chahalgr.github.io/Portfolio/)
 
 ---
 
