@@ -23,7 +23,7 @@ This is my personal portfolio website showcasing the projects, skills, and exper
 | Category   | Tools Used                                                                 |
 |------------|-----------------------------------------------------------------------------|
 | Frontend   | HTML5, CSS3, JavaScript, React, TypeScript, Next.js, Blazor, ASP.NET Core  |
-| Backend    | Node.js, Python, C#, .NET 8, SignalR                                       |
+| Backend    | Spring Boot, PostgreSQL, Node.js, Python, C#, .NET 8, SignalR              |
 | Data/ML    | Pandas, NumPy, Matplotlib, Keras, Power BI, SSMS, Roboflow                 |
-| Tools      | Git, GitHub, VS Code, Azure Static Web Apps, Streamlit                    |
+| Tools      | Docker, Railway, Git, GitHub, VS Code, Azure Static Web Apps, Streamlit    |
 
