@@ -312,6 +312,9 @@ nav {
 .fa-microsoft { color: #0078D4; }    
 .fa-globe { color: #0078d4; }
 .fa-chart-line { color: #ff4b4b; }
+.fa-leaf   { color: #6db33f; }   /* Spring Boot green */
+.fa-docker { color: #2496ed; }   /* Docker blue */
+.fa-train  { color: #8b5cf6; }   /* Railway purple */
 
 #contact {
     background-color: #ffffff;
